@@ -5,57 +5,149 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sujeet Madihalli | Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Sujeet Madihalli</h1>
-        <p>Cloud Operations Engineer</p>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Sujeet Madihalli</h1>
+            <p>Cloud Operations Engineer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I seek a dynamic role to leverage my expertise in software engineering, project management, and site reliability...</p>
-    </section>
-    <section id="education">
-        <h2>Education</h2>
-        <p>B.E Computer Science, KLS Gogte Institute of Technology, CGPA: 9.15</p>
-    </section>
-    <section id="experience">
-        <h2>Experience</h2>
-        <p>Oracle, Bangalore - Cloud Operations Engineer</p>
-        <p>Subex Ltd, Bangalore - Senior Software Engineer, Service Management</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Automated Time-Table Generation</p>
-        <p>Facial Emotion Detection</p>
-    </section>
-    <section id="skills">
-        <h2>Skills</h2>
-        <p>Python, Java, PHP, HTML, CSS, MySQL...</p>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <form id="contactForm">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-        <div id="formMessage"></div>
-    </section>
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I seek a dynamic role to leverage my expertise in software engineering, project management, and site reliability. With 
+                    a proven track record in enhancing processes and contributing to impactful projects, I am committed to continuous learning 
+                    and staying updated with the latest technologies. I aim to make valuable contributions to the company's success and 
+                    advance my professional growth.</p>
+            </div>
+        </section>
+        <section id="education" class="section">
+            <div class="container">
+                <h2>Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>B.E Computer Science</h3>
+                        <h4>KLS Gogte Institute of Technology</h4>
+                        <p>CGPA: 9.15</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experience" class="section">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>Cloud Operations Engineer</h3>
+                        <h4>Oracle, Bangalore</h4>
+                        <p>
+                            <ul>
+                                <li>Maintained Oracle SaaS products (CRM OD, WMS, OTM) across North America and Europe, handling over 100 customer tickets weekly with a TAT of under 1 hour.</li>
+                                <li>Monitored system performance, reducing downtime by 30% through proactive measures and troubleshooting complex technical issues.</li>
+                                <li>Collaborated with cross-functional teams, leading process improvements that increased service efficiency by 25%.</li>
+                            </ul>
+                            
+                        </p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Senior Software Engineer, Service Management</h3>
+                        <h4>Subex Ltd, Bangalore</h4>
+                        <p>
+                            <ul>
+                                <li>Enhanced SRE processes using Python and shell scripting, reduced manual work by 70%.</li>
+                                <li>Developed and deployed an internal website using HTML, CSS, Python, JavaScript, and Docker, serving 200+ users.</li>
+                                <li>Supported Fraud Management and Revenue Assurance for European Telcos, including Vodafone Turkey, Telekom Slovenia, and Swisscom, reducing rep...</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects">
+                    <div class="project-item">
+                        <h3>Project Handbook (Subex)</h3>
+                        <p>
+                            <ul>
+                                <li> Designed and created an internal website employing HTML/CSS, Python, PHP, and JavaScript within a Docker container. This platform serves as a repository for accessible customer and product-related server details, while also utilizing Python for predictive data analysis for the upcoming month. </li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="project-item">
+                        <h3>Automated Time-Table Generation</h3>
+                        <p>
+                            <ul>
+                            <li> Developed a Genetic algorithm-based system to autonomously generate institution timetables. Created a dedicated portal for faculty and students to access and download schedules. Reduced operational overhead by 95%.</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="project-item">
+                        <h3>Facial Emotion Detection</h3>
+                        <p>
+                            <ul>
+                                <li> A Python project implemented with the OpenCV library and TensorFlow, utilizing a laptop or PC's webcam as input to display the emotion of the person captured in the webcam image as the output with 92% accuracy.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>PHP</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>MySQL</li>
+                    <li>Kubernetes</li>
+                    <li>Docker</li>
+                    <li>Django</li>
+                    <li>Linux</li>
+                    <li>Oracle Cloud</li>
+                    <li>CRM, OTM, WMS</li>
+                    <li>Grafana</li>                    
+                </ul>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <form id="contactForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+                <div id="formMessage"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sujeet Madihalli. All Rights Reserved.</p>
+        </div>
+    </footer>
     <script src="scripts.js"></script>
 </body>
 </html>
