@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: #333;
+    background: #4CAF50;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -41,6 +41,10 @@ header nav ul li a {
     font-size: 1rem;
 }
 
+header nav ul li a:hover {
+    color: #4CAF50;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -48,6 +52,7 @@ header nav ul li a {
 }
 
 .section {
+    background: #f0f0f0;
     padding: 60px 0;
     border-bottom: 1px solid #eee;
 }
@@ -68,7 +73,12 @@ header nav ul li a {
     background: #f9f9f9;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.timeline-item:hover, .project-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .skills-list {
@@ -80,7 +90,7 @@ header nav ul li a {
 
 .skills-list li {
     list-style-type: none;
-    background: #333;
+    background: #2196F3;
     color: #fff;
     padding: 10px 20px;
     border-radius: 20px;

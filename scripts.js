@@ -7,11 +7,10 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 
     if (name && email && message) {
         document.getElementById('formMessage').textContent = 'Thank you for your message!';
-        document.getElementById('formMessage').style.color = 'green';
+        document.getElementById('formMessage').style.color = '#4CAF50';
         document.getElementById('contactForm').reset();
     } else {
         document.getElementById('formMessage').textContent = 'Please fill out all fields.';
-        document.getElementById('formMessage').style.color = 'red';
+        document.getElementById('formMessage').style.color = '#f44336';
     }
 });
-``
