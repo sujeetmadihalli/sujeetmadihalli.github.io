@@ -1,154 +1,224 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sujeet Madihalli | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cloud Operations Engineer, Data Scientist, Automation Expert, Sujeet Madihalli Portfolio showcasing projects, skills, certifications, Kubernetes, Docker, Python, Machine Learning" />
+  <meta name="keywords" content="Cloud Operations, Data Science, Automation, Python, Kubernetes, Docker, Machine Learning, Sujeet Madihalli, Portfolio" />
+  <meta property="og:title" content="Sujeet Madihalli | Cloud Operations Engineer & Data Scientist" />
+  <meta property="og:description" content="Explore Sujeet Madihalli's portfolio highlighting expertise in cloud operations, automation, and data science projects." />
+  <meta property="og:type" content="website" />
+  <title>Sujeet's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Sujeet Madihalli",
+      "jobTitle": "Cloud Operations Engineer",
+      "url": "https://your-portfolio-link.com",
+      "sameAs": [
+        "https://www.linkedin.com/in/sujeet-madihalli",
+        "https://github.com/sujeetmadihalli"
+      ],
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "University of Maryland, College Park"
+      }
+    }
+  </script>
 </head>
-<body>
-    <header>
-        <div class="container">
-            <h1>Sujeet Madihalli</h1>
-            <p>Cloud Operations Engineer</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+<body data-theme="light">
+  <header role="banner">
+    <h1 class="fade-in">Sujeet Madihalli</h1>
+    <div style="height: 2em; display: flex; justify-content: center; align-items: center;">
+        <p id="typed-text" style="font-size:1.1rem; color:var(--header-text); margin: 0;"></p>
+    </div>
+    <button id="mode-toggle" class="mode-toggle" aria-label="Toggle theme">🌙</button>
+    <nav role="navigation" class="fade-in">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+<svg class="wave" viewBox="0 0 1440 320" preserveAspectRatio="none">
+  <path fill="#fdfcfb" fill-opacity="1" d="M0,64L40,90.7C80,117,160,171,240,181.3C320,192,400,160,480,133.3C560,107,640,85,720,90.7C800,96,880,128,960,133.3C1040,139,1120,117,1200,117.3C1280,117,1360,139,1400,149.3L1440,160L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+</svg>
+  <main class="container">
+    <section id="about" class="fade-up">
+      <h2>About Me</h2>
+      <div class="photo-container">
+        <img src="images/MeCrop.jpeg" alt="Sujeet's photo">
+      </div>
+      <p style="text-align:center;">Cloud Operations Engineer with expertise in software engineering, project management, site reliability, and automation. Incoming Data Science Master’s student at University of Maryland, College Park. Passionate about continuous learning, data science, and innovative solutions.</p>
+      <div class="stats">
+        <div><strong>3+</strong><br>Years Experience</div>
+        <div><strong>10+</strong><br>Projects</div>
+        <div><strong>3+</strong><br>Certifications</div>
+      </div>
+    </section>
+
+
+
+<section id="skills" class="fade-up">
+  <h2>Skills</h2>
+  <div class="skills-grid fade-up">
+    <div class="skill-card fade-up glass">
+      <h4>Programming</h4>
+      <span>Python</span><span>Java</span><span>JavaScript</span><span>PHP</span><span>Shell</span>
+    </div>
+    <div class="skill-card fade-up glass">
+      <h4>Web & Scripting</h4>
+      <span>HTML</span><span>CSS</span><span>MySQL</span>
+    </div>
+    <div class="skill-card fade-up glass">
+      <h4>Data & ML</h4>
+      <span>Machine Learning</span><span>Data Science</span><span>NumPy</span><span>Pandas</span><span>Hadoop</span>
+    </div>
+  </div>
+
+  <h2 style="margin-top: 3rem;">Tools</h2>
+  <div class="tool-grid fade-up">
+    <div class="tool-item">Docker</div>
+    <div class="tool-item">Kubernetes</div>
+    <div class="tool-item">Git</div>
+    <div class="tool-item">Grafana</div>
+  </div>
+</section>
+
+<section id="certifications" class="fade-up">
+  <h2>Certifications</h2>
+  <div class="cert-card fade-up glass">
+    <img src="https://logos-world.net/wp-content/uploads/2020/09/Oracle-Logo.png" alt="Oracle logo" />
+    <div>
+      <h4>OCI 2024 Gen AI Professional</h4>
+      <p>Issued by Oracle</p>
+      <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=..." target="_blank">View Certificate</a>
+    </div>
+  </div>
+  <div class="cert-card fade-up glass">
+    <img src="images/Coursera.png" alt="Coursera logo" />
+    <div>
+      <h4>Machine Learning Specialization</h4>
+      <p>Issued by Coursera</p>
+      <a href="https://www.coursera.org/account/accomplishments/specialization/LNP8M7V8LRPN" target="_blank">View Certificate</a>
+    </div>
+  </div>
+  <div class="cert-card fade-up glass">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft logo" />
+    <div>
+      <h4>MTA: Intro to Programming (Python)</h4>
+      <p>Issued by Microsoft</p>
+      <a href="https://www.dropbox.com/s/p9t7gfog3s3mdbh/MTA_Python.pdf?dl=0" target="_blank">View Certificate</a>
+    </div>
+  </div>
+</section>
+
+
+    <section id="projects" class="fade-up">
+      <h2>Projects</h2>
+      <div class="filter">
+        <button onclick="filterProjects('all')">All</button>
+        <button onclick="filterProjects('django')">Django</button>
+        <button onclick="filterProjects('python')">Python</button>
+        <button onclick="filterProjects('docker')">Docker</button>
+        <button onclick="filterProjects('ml')">ML</button>
+      </div>
+      <div class="projects fade-up">
+        <div class="project glass fade-up" data-tags="python docker ml" onclick="toggleDetails(this)">
+          <div class="project-title-wrapper"><h3 class="project-title">Project Handbook</h3></div>
+          <div class="project-content">
+          <div class="photo-container2"><img src="images/ProjectHandbook.png" alt="Project Handbook Image"></div>
+          <p>Created an internal portal to store, retrive and process customer data securely</p>
+          <div class="project-details">
+            <p style="margin-bottom: 1rem;">->Tools: HTML, CSS, JavaScript, Python, Bash, Data Analysis, Regression algorithm</p>
+            <p style="margin-bottom: 1rem;">->This platform serves as a repository for accessible customer and product-related server details, while also utilizing Python for predictive data analysis for the upcoming month.</p>
+          </div>
+          </div>
+        </div> 
+        <div class="project glass fade-up" data-tags="django python docker ml" onclick="toggleDetails(this)">
+          <div class="project-title-wrapper"><h3 class="project-title">Automated Time-Table Generation</h3></div>
+          <div class="project-content">
+          <div class="photo-container2"><img src="images/TimeTableGen.png" alt="Time Table Image"></div>
+          <p>A complete University time schedule for classes created using genetic algorithm.</p>
+          <div class="project-details">
+            <p style="margin-bottom: 1rem;">Tools: Python, Django, Machine Learning, MySQL, Bootstrap</p>
+            <p style="margin-bottom: 1rem;"></p>A Genetic algorithm-based system to autonomously generate institution timetables. Created a dedicated portal for faculty and students to access and download schedules. Reduced operational overhead by 95%.</p>
+            <p>🔗 <a href="https://github.com/sujeetmadihalli/Automated_TimeTable_Generation" target="_blank">View on GitHub</a></p>
+          </div>
+          </div>
         </div>
-    </header>
-    <main>
-        <section id="about" class="section">
-            <div class="container">
-                <h2>About Me</h2>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <p>I seek a dynamic role to leverage my expertise in software engineering, project management, and site reliability. With a proven track record in enhancing processes and contributing to impactful projects, I am committed to continuous learning and staying updated with the latest technologies. I aim to make valuable contributions to the company's success and advance my professional growth.</p>
-                    </div>
-                </div>            
-            </div>
-        </section>
-        <section id="education" class="section">
-            <div class="container">
-                <h2>Education</h2>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <h3>B.E Computer Science</h3>
-                        <h4>KLS Gogte Institute of Technology</h4>
-                        <p>CGPA: 9.15</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="experience" class="section">
-            <div class="container">
-                <h2>Experience</h2>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <h3>Cloud Operations Engineer</h3>
-                        <h4>Oracle, Bangalore</h4>
-                        <p>
-                            <ul>
-                                <li>Maintained Oracle SaaS products (CRM OD, WMS, OTM) across North America and Europe, handling over 100 customer tickets weekly with a TAT of under 1 hour.</li>
-                                <li>Monitored system performance, reducing downtime by 30% through proactive measures and troubleshooting complex technical issues.</li>
-                                <li>Collaborated with cross-functional teams, leading process improvements that increased service efficiency by 25%.</li>
-                            </ul>
-                            
-                        </p>
-                    </div>
-                    <div class="timeline-item">
-                        <h3>Senior Software Engineer, Service Management</h3>
-                        <h4>Subex Ltd, Bangalore</h4>
-                        <p>
-                            <ul>
-                                <li>Enhanced SRE processes using Python and shell scripting, reduced manual work by 70%.</li>
-                                <li>Developed and deployed an internal website using HTML, CSS, Python, JavaScript, and Docker, serving 200+ users.</li>
-                                <li>Supported Fraud Management and Revenue Assurance for European Telcos, including Vodafone Turkey, Telekom Slovenia, and Swisscom, reducing repetitive tickets by 80% through automation and problem solving skills.</li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="projects" class="section">
-            <div class="container">
-                <h2>Projects</h2>
-                <div class="projects">
-                    <div class="project-item">
-                        <h3>Project Handbook (Subex)</h3>
-                        <p>
-                            <ul>
-                                <li> Designed and created an internal website employing HTML/CSS, Python, PHP, and JavaScript within a Docker container. This platform serves as a repository for accessible customer and product-related server details, while also utilizing Python for predictive data analysis for the upcoming month. </li>
-                            </ul>
-                        </p>
-                    </div>
-                    <div class="project-item">
-                        <h3>Automated Time-Table Generation</h3>
-                        <p>
-                            <ul>
-                            <li> Developed a Genetic algorithm-based system to autonomously generate institution timetables. Created a dedicated portal for faculty and students to access and download schedules. Reduced operational overhead by 95%.</li>
-                            </ul>
-                        </p>
-                    </div>
-                    <div class="project-item">
-                        <h3>Facial Emotion Detection</h3>
-                        <p>
-                            <ul>
-                                <li> A Python project implemented with the OpenCV library and TensorFlow, utilizing a laptop or PC's webcam as input to display the emotion of the person captured in the webcam image as the output with 92% accuracy.</li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="skills" class="section">
-            <div class="container">
-                <h2>Skills</h2>
-                <ul class="skills-list">
-                    <li>Python</li>
-                    <li>Java</li>
-                    <li>PHP</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>MySQL</li>
-                    <li>Kubernetes</li>
-                    <li>Docker</li>
-                    <li>Django</li>
-                    <li>Linux</li>
-                    <li>Oracle Cloud</li>
-                    <li>CRM, OTM, WMS</li>
-                    <li>Grafana</li>                    
-                </ul>
-            </div>
-        </section>
-        <section id="contact" class="section">
-            <div class="container">
-                <h2>Contact</h2>
-                <form id="contactForm">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-                    <button type="submit">Send</button>
-                </form>
-                <div id="formMessage"></div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Sujeet Madihalli. All Rights Reserved.</p>
+        <div class="project glass fade-up" data-tags="python ml" onclick="toggleDetails(this)">
+          <div class="project-title-wrapper"><h3 class="project-title">Facial Emotion Detection</h3></div>
+          <div class="project-content">
+          <div class="photo-container2"><img src="images/FacialEmoDec.png" alt="Facial Emotion Detector Image"></div>
+          <p>A Facial Emotion detection Model with 92% accuracy</p>
+          <div class="project-details">
+            <p style="margin-bottom: 1rem;">Tools: Python, TensorFlow, OpenCV, Machine Learning</p>
+            <p style="margin-bottom: 1rem;">A Python project implemented with the OpenCV library and TensorFlow, utilizing a laptop or PC's webcam as input to display the emotion of the person captured in the webcam image as the output with 92% accuracy.</p>
+          </div>
+          </div>
         </div>
-    </footer>
-    <script src="scripts.js"></script>
+        <div class="project glass fade-up" data-tags="django python docker" onclick="toggleDetails(this)">
+          <div class="project-title-wrapper"><h3 class="project-title">Expense Tracker</h3></div>
+          <div class="project-content">
+          <div class="photo-container2"> <img src="images/ExpenseTracker.png" alt="Expense Tracker Image"></div>
+          <p>Django-based web application to help users track their expenses</p>
+          <div class="project-details">
+            <p style="margin-bottom: 1rem;">Tools: Python 3.10, Django 3.2.12, SQLite, Docker</p>
+            <p style="margin-bottom: 1rem;">Simplifies personal finance management through an intuitive UI. Enables categorized filtering and data management. Features include add expenses by category, view expense history, filter by date/category, delete entries.</p>
+            <p>🔗 <a href="https://github.com/sujeetmadihalli/ExpenseTracker" target="_blank">View on GitHub</a></p>
+          </div>
+          </div>
+        </div> 
+        <div class="project glass fade-up" data-tags="django python docker" onclick="toggleDetails(this)">
+          <div class="project-title-wrapper"><h3 class="project-title">Card Validator</h3></div>
+          <div class="project-content">
+          <div class="photo-container2"><img src="images/CardV.png" alt="Card Validator Image"></div>
+          <p>Django web application that validates credit card numbers using the Luhn algorithm</p>
+          <div class="project-details">
+            <p style="margin-bottom: 1rem;">Tools: Python, Django, Docker</p>
+            <p style="margin-bottom: 1rem;">Provides an easy-to-use tool for verifying credit card numbers. Also deployable with Docker for streamlined usage. Features include real-time validation via web form, Docker-compatible deployment.</p>
+            <p>🔗 <a href="https://github.com/sujeetmadihalli/LuhnAlog_Project" target="_blank">View on GitHub</a></p>
+          </div>
+          </div>
+        </div>
+        <div class="project glass fade-up" data-tags="django python docker" onclick="toggleDetails(this)">
+          <div class="project-title-wrapper"><h3 class="project-title">Vigenere Cipher App</h3></div>
+          <div class="project-content">
+          <div class="photo-container2"><img src="images/Vcypher.png" alt="Vigenere Cipher App Image"></div>
+          <p>Django web application for encrypting and decrypting messages using the Vigenere Cipher.</p>
+          <div class="project-details">
+            <p style="margin-bottom: 1rem;">Tools: Python, Django, Docker</p>
+            <p style="margin-bottom: 1rem;">Offers a simple platform for learning and demonstrating classical encryption techniques. Features include Securely encode/decode messages; deployable via Docker.</p>
+            <p>🔗 <a href="https://github.com/sujeetmadihalli/vigenere_cipher" target="_blank">View on GitHub</a></p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="fade-up" >
+      <h2>Contact</h2>
+      <p style="text-align:center;">Email: <a href="mailto:sujeetmadihalli@gmail.com">sujeetmadihalli@gmail.com</a></p>
+      <p style="text-align:center;">LinkedIn: <a href="https://www.linkedin.com/in/sujeet-madihalli/" target="_blank">linkedin.com/in/sujeet-madihalli</a></p>
+      <p style="text-align:center;">GitHub: <a href="https://github.com/sujeetmadihalli/" target="_blank">github.com/sujeetmadihalli</a></p>
+      <p style="text-align:center; margin-top: 1rem;">
+        <a href="Docs/Sujeet_Madihalli_UMD.pdf" download target="_blank"><button>📄 Download Resume</button></a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sujeet Madihalli. All rights reserved.</p>
+  </footer>
+
+  <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
+
+  <script src="scripts.js"></script>
 </body>
 </html>
