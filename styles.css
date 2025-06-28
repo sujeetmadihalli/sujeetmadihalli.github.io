@@ -147,3 +147,16 @@
     [data-theme="dark"] .skill-card.glass:hover { background: rgba(40, 40, 40, 0.4); }
     .skill-card:hover { transform: translateY(-5px) scale(1.05); box-shadow: 0 8px 20px rgba(108, 99, 255, 0.4); }
     .filter button.active { background: var(--header-bg); color: var(--header-text); font-weight: bold; }
+    @media screen and (max-width: 768px) {
+      .container { padding: 1rem; }
+      .project-content { flex-direction: column !important; align-items: center;} 
+      .project img { width: 100%; max-width: 300px; height: auto; margin-bottom: 1rem; }
+      .skills-grid { flex-direction: column !important; align-items: center; }
+      .tool-grid { grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));}
+      .stats { flex-direction: column !important; gap: 1rem;}
+      nav a {display: inline-block; margin: 0.5rem; font-size: 1rem;}
+      header { padding: 1.5rem 1rem;} 
+      .photo-container, .photo-container2 img { width: 150px; height: 150px;}
+      h2 { font-size: 1.3rem; }
+      .project-title { font-size: 1.2rem; }
+    }
